@@ -1,4 +1,4 @@
-# code-generater
+# code-generator
 
 使用 Nunjucks.js 渲染引擎实现的代码生成器
 
