@@ -1,6 +1,17 @@
 # code-generater
 
-This template should help get you started developing with Vue 3 in Vite.
+使用 Nunjucks.js 渲染引擎实现的代码生成器
+
+## 路线图
+
+- [x] 生成代码
+- [ ] 自动保存元信息和渲染模板
+- [ ] 元信息和渲染模板的导入和导出
+- [ ] 提供 Windows 桌面离线版
+- [ ] 提供 Mac 桌面离线版
+- [ ] 提供 Linux 桌面离线版
+- [ ] 从源订阅模板
+- [ ] 模板社区
 
 ## Recommended IDE Setup
 
