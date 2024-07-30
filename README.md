@@ -2,6 +2,8 @@
 
 使用 Nunjucks.js 渲染引擎实现的代码生成器
 
+[打开网站](https://code-generator.dadilive.top/)
+
 ## 路线图
 
 - [x] 生成代码
