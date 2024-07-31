@@ -1,5 +1,5 @@
 <template>
-  <div ref="editor_ref" class="editor"></div>
+  <div ref="editor_ref" class="max-height editor"></div>
 </template>
 
 <script setup>
@@ -38,6 +38,7 @@ const initEditor = () => {
       maxColumn: 300 // 设置缩略图的最大宽度，如果需要更小，你可以降低这个数字。
     },
     readOnly: props.readOnly
+    // automaticLayout: true
   })
 
   editor.onDidChangeModelContent(() => {
@@ -48,7 +49,6 @@ const initEditor = () => {
 
 <style scoped>
 .editor {
-  height: 100%;
   border: 1px solid black;
 }
 </style>
