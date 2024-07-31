@@ -7,7 +7,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "code-generater",
+    "productName": "code-generator",
     "version": "0.1.0"
   },
   "tauri": {
@@ -29,7 +29,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "top.dadilive.chode-generator",
+      "identifier": "top.dadilive.code-generator",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -59,10 +59,10 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 600,
-        "resizable": true,
-        "title": "code-generater",
-        "width": 800
+        "height": 800,
+        "resizable": false,
+        "title": "code-generator",
+        "width": 1280
       }
     ]
   }
