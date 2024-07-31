@@ -3,9 +3,16 @@
     <el-container class="fullscreen">
       <el-main>
         <el-row :gutter="20" style="height: 100%">
-          <el-col :span="8"><CodeEditor language="yaml" v-model="meta" /></el-col>
-          <el-col :span="8"><CodeEditor language="twig" v-model="template" /></el-col>
           <el-col :span="8">
+            <el-text>Meta</el-text>
+            <CodeEditor language="yaml" v-model="meta" />
+          </el-col>
+          <el-col :span="8">
+            <el-text>Template</el-text>
+            <CodeEditor language="twig" v-model="template" />
+          </el-col>
+          <el-col :span="8">
+            <el-text>Output</el-text>
             <CodeEditor language="javascript" :readOnly="true" v-model="code" />
           </el-col>
         </el-row>
