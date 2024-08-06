@@ -1,4 +1,5 @@
 import './assets/main.css'
+import nunjucks from 'nunjucks'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
@@ -7,6 +8,8 @@ import 'element-plus/dist/index.css'
 
 import App from './App.vue'
 import router from './router'
+
+nunjucks.configure({ autoescape: false })
 
 const app = createApp(App)
 
