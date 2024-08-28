@@ -4,6 +4,12 @@
 
 [打开网站](https://code-generator.dadilive.top/)
 
+## 技术栈
+
+Nunjucks.js + js-yaml + Vue3 + Monaco Editor + Tauri
+![image](https://github.com/user-attachments/assets/6b7f95b6-bede-43c2-95af-b4d0e8375326)
+
+
 ## 路线图
 
 - [x] 生成代码
